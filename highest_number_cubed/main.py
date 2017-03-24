@@ -2,4 +2,12 @@
 
 
 def highest_number_cubed(limit):
-    pass
+    val = 0
+    for num in range(limit):
+        if num**3 <= limit:
+            val = num
+    
+    return val
+            
+
+        
